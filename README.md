@@ -31,6 +31,3 @@
     "dialect": "mysql"
   }
 }
-
-          ```
-          -Once you've added yout db config as listed above, go to the src folder from yout terminal and execute `npx sequelize db:create`
