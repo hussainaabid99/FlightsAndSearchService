@@ -10,7 +10,7 @@ class FlightService {
           }
           async createFlight(data) {
                     try {
-                              if (!compareTime(data.arrivalTime, data.departureTime)) {
+                              if (!compareTime(data.arrivalTime, data.departuretime)) {
 
                                         throw { error: 'Arrival time cannot be less than departure time' };
                               }
